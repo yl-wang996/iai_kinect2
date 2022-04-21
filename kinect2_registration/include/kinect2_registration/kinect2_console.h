@@ -23,7 +23,7 @@
 #include <ros/console.h>
 
 // Set this to '0' to disable the extended colored output
-#define EXTENDED_OUTPUT 1
+#define EXTENDED_OUTPUT 0
 
 #if EXTENDED_OUTPUT
 
