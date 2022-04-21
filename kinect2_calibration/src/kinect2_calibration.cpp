@@ -29,6 +29,7 @@
 #include <sys/stat.h>
 
 #include <opencv2/opencv.hpp>
+#include <opencv2/imgcodecs/legacy/constants_c.h>
 
 #include <ros/ros.h>
 #include <ros/spinner.h>
