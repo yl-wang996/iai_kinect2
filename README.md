@@ -158,7 +158,7 @@ If you found no solution in the issues, feel free to open a new issue for your p
 5. Connect your sensor and run `kinect2_bridge`:
 
     ```bash
-    roslaunch kinect2_bridge kinect2_bridge.launch
+    roslaunch kinect2_bridge kinect2_bridge.launch publish_tf:=true depth_method:=opengl
     ```
 
 6. Calibrate your sensor using the `kinect2_calibration`. [Further details](kinect2_calibration#calibrating-the-kinect-one)
