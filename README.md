@@ -160,7 +160,7 @@ If you found no solution in the issues, feel free to open a new issue for your p
     ```bash
     roslaunch kinect2_bridge kinect2_bridge.launch publish_tf:=true depth_method:=opengl
     ```
-
+    If you use the rviz, the name of the fixed frame is `kinect2_link`.
 6. Calibrate your sensor using the `kinect2_calibration`. [Further details](kinect2_calibration#calibrating-the-kinect-one)
 7. Add the calibration files to the `kinect2_bridge/data/<serialnumber>` folder. [Further details](kinect2_bridge#first-steps)
 8. Restart `kinect2_bridge` and view the results using `rosrun kinect2_viewer kinect2_viewer kinect2 sd cloud`.
